@@ -1,5 +1,7 @@
 # 🎙️ Local Live Translator (RTX Powered)
 
+### gemini ile çeviri desteği kısa sürede eklenecek!!!
+
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python)
 ![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Manifest_V3-4285F4?logo=google-chrome)
 ![NVIDIA](https://img.shields.io/badge/GPU-Accelerated-76B900?logo=nvidia)
