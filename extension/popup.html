@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 250px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 15px;
+        }
+        h2 { margin: 0 0 15px 0; font-size: 18px; color: #ffd700; }
+        
+        .status-box {
+            background: #2d2d2d;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ff4444; 
+            margin-right: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #ffd700;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 16px;
+        }
+        button:hover { background-color: #ffea00; }
+        button.active { background-color: #ff4444; color: white; }
+    </style>
+</head>
+<body>
+    <h2>Local Çeviri 🚀</h2>
+    
+    <div class="status-box">
+        <span id="statusDot" class="status-indicator"></span>
+        <span id="statusText">Sunucu Bekleniyor...</span>
+    </div>
+
+    <button id="toggleBtn">BAŞLAT</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

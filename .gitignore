@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+*.dll
+*.lib
+
+models/
+
+.vscode/
+.idea/
